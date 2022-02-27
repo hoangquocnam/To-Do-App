@@ -1,0 +1,31 @@
+#login {
+  margin: auto;
+  width: 100%;
+  height: auto;
+}
+
+#login > h1 {
+  text-align: center;
+  font-size: 100px;
+}
+
+
+.loginInput {
+  width: 250px;
+  font-size: 20px;
+  padding: 10px;
+}
+
+#login__form{
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+#login__form > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+

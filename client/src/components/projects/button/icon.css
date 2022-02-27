@@ -1,0 +1,160 @@
+/* Expand task */
+.gg-chevron-double-down-o {
+  position: relative;
+  border: 2px solid;
+  border-radius: 100px;
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  background-color: #0a8754;
+}
+
+.gg-chevron-double-down-o::before {
+  content: "";
+  box-sizing: border-box;
+  width: 10px;
+  height: 10px;
+  border-bottom: 2px solid;
+  border-right: 2px solid;
+  transform: rotate(45deg);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.gg-chevron-double-down-o:hover {
+  background-color: #004f2d;
+}
+
+.gg-chevron-double-up-o {
+  position: relative;
+  border: 2px solid;
+  border-radius: 100px;
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  background-color: #3E7CB1;
+}
+
+.gg-chevron-double-up-o::before {
+  content: "";
+  box-sizing: border-box;
+  width: 10px;
+  height: 10px;
+  border-bottom: 2px solid;
+  border-right: 2px solid;
+  transform: rotate(-135deg);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.gg-chevron-double-up-o:hover {
+  background-color: #81A4CD;
+}
+
+
+
+/* refresh project */
+
+.gg-refresh-r {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border: 2px solid;
+  border-radius: 4px;
+  margin-left: 10px;
+  background-color: #e67f0d;
+}
+
+.gg-refresh-r::before {
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  width: 10px;
+  height: 3px;
+  background-color: currentColor;
+  border-radius: 5px;
+}
+
+.gg-refresh-r:hover {
+  background-color: #e4572e;
+}
+
+/*Add*/
+.gg-add {
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border: 2px solid;
+  border-radius: 100px;
+  background-color: #ace894;
+}
+
+.gg-add::after,
+.gg-add::before {
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  width: 20px;
+  height: 3px;
+  background: black;
+  border-radius: 5px;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.gg-add::after {
+  width: 3px;
+  height: 20px;
+}
+
+.gg-add:hover {
+  background-color: #4a7856;
+}
+
+/*remove*/
+.gg-remove {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 34px;
+  height: 34px;
+  border: 2px solid;
+  border-radius: 22px;
+  margin-left: 10px;
+  background-color: #883955;
+}
+
+.gg-remove::before {
+  content: "";
+  box-sizing: border-box;
+  width: 10px;
+  height: 2px;
+  background: currentColor;
+  border-radius: 5px;
+  top: 8px;
+  left: 4px;
+}
+
+.gg-remove:hover{
+  background-color: #FF4D80;
+}

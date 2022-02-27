@@ -1,0 +1,70 @@
+
+
+#toolbar {
+  margin-bottom: 20px;
+}
+
+#addProject__cancelButton {
+  background-color: #E4572E;
+  height: 40px;
+  width: 100px;
+}
+
+#addProject__field {
+  height: 40px;
+  padding: 5px;
+  padding-left: 15px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  width: 500px;
+  margin: 25px;
+  font-size: 25px;
+}
+
+#addProject__addButton {
+  background-color: #A7C957;
+  height: 40px;
+  width: 100px;
+}
+
+
+input {
+  border: 1px solid #333;
+  border-radius: 5px;
+  margin: 5px 5px;
+  height: 40px;
+}
+
+#projectlist {
+  list-style-type: none;
+  background-color: #6E633D;
+  border: 5px solid #333;
+  min-width: 1000px;
+  max-width: 1000px;
+  min-height: 500px;
+  padding:20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  overflow: auto;
+}
+
+#project__title{
+  font-size: 70px;
+  margin-bottom: 10px;
+  margin-top: 50px;
+  color: #386641
+}
+
+
+#ToolbarProject{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.taskInput{
+  width: 200px;
+}

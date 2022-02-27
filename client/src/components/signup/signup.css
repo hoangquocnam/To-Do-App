@@ -1,0 +1,135 @@
+#signup {
+  background-color: white;
+  width: 500px;
+  max-width: 500px;
+  max-height: 900px;
+  padding: 10px;
+  border: 4px solid #50723c;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+}
+
+#signup > h1 {
+  font-size: 60px;
+}
+
+#signup__form {
+  background-color: #fff;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  padding-left: 20px;
+}
+
+#signup__form > div {
+    margin: 20px 0px;
+}
+
+[id$="field"] {
+  margin: 5px;
+  width: 250px;
+  padding: 5px;
+}
+
+.signup__submit {
+  height: 50px;
+  position: relative;
+  margin-bottom: 2px;
+}
+
+#signup__button:hover {
+  background-color: #b54;
+  color: antiquewhite;
+}
+
+.signup__submit > input {
+  padding: 5px;
+  text-align: center;
+  height: 40px;
+  width: 100px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+h3 {
+  margin-top: 10px;
+  height: 50px;
+}
+
+#return__button {
+  border: 2px solid #333;
+  width: 30px;
+  height: 30px;
+  color: #B6174B;
+  border-radius: 5px;
+  justify-self: flex-start;
+  align-self: flex-end;
+}
+
+#return__button:hover {
+  background-color: #b54;
+  color: #333
+}
+
+#signup__roleField {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+#admin {
+  height: 20px;
+  width: 20px;
+}
+table {
+  padding: 10px;
+  margin: 5px;
+  width: 100%;
+}
+
+th,
+td {
+  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  color: #666;
+  background-color: #eee;
+}
+
+th {
+  width: 20%;
+  color: #b54;
+  text-align: center;
+}
+
+#content {
+  width: 100%;
+}
+
+#age__field {
+  width: 50px;
+  text-align: center;
+}
+
+#signup__result {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+#signup__roleField,
+.radio-group{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
