@@ -32,6 +32,4 @@ server.use(cors())
 server.use(router);
 
 
-server.listen(port, () => {
-    logger.info(`Server running at http://${hostname}:${port}`);
-})
+server.listen(process.env.PORT)
