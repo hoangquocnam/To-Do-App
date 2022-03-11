@@ -5,7 +5,7 @@ const { router } = require('./routers')
 const { logger } = require('./utils/logger.js')
 
 const hostname = "localhost"
-const port = "5500"
+const port = "5000"
 
 const uriDB = "mongodb+srv://thanhtailt1223:tailt1007@cluster0.mv93c.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 
@@ -32,4 +32,6 @@ server.use(cors())
 server.use(router);
 
 
-server.listen(process.env.PORT)
+server.listen(port, () => {
+    logger.info(`Server running at http://${hostname}:${port}`);
+})
